@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "BookStore",
+    "slug": "bookstore",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1F5C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.bookstore"
+    },
+    "android": {
+      "package": "com.example.bookstore",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B1F5C"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
